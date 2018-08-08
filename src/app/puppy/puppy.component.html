@@ -1,6 +1,10 @@
 <div class = "image-container" >
   <div class ="header">
-    <h1>Suggest a name for this puppy</h1>
-    <img height="400" alt="Puppy" src="src/assets/images/puppy.jpg">           
+    <h1>Suggest a name for this puppy :</h1>
+    <div class ="textbox">
+        <input type="text" id="pupname" [(ngModel)]= "pupname">
+    </div>
+    <img height="325" alt="Puppy" src="src/assets/images/puppy.jpg">   
+    <h3>The suggested name is : {{pupname}}</h3>        
   </div>
 </div>

@@ -11,8 +11,10 @@ export class PuppyComponent implements OnInit {
 
   ngOnInit() {
   }
-
-  
+  // pupname = "cutie"
+  // changePuppyName(evnt){
+  //   this.pupname=evnt.target.value;
+  // }
 }
 
 
