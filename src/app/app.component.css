@@ -1,4 +1,4 @@
-@media(min-width: 960px){
+@media(min-width: 768px){
   .pet-container {
     display: flex;
     justify-content: space-around;
