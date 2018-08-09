@@ -7,10 +7,14 @@
     text-align: center;
   }
 
-  input {
+input {
     width: 100%;
     padding-bottom: 10px;
-} 
+}
+
+.image-container {
+    width: 400px;
+}
 
 .textbox{
     padding: 10px;
